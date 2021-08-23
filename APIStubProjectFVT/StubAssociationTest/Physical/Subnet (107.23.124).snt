@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611734144101"
+    createdUser="meenal.patidar" id="563125f5:17742d74be7:-7e72"
+    selfDescribing="Subnet (107.23.124)" type="sub_net_resource"
+    updatedTimestamp="1611734144101" updatedUser="meenal.patidar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig subnet="107.23.124" user_sub_net_name="Subnet"/>
+</editableResource>

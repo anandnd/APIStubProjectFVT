@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611217871472"
+    createdUser="meenal.patidar"
+    id="293b57ba:17724107a58:-7ec6:-101664793:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1611217871472" updatedUser="meenal.patidar" version="1.1">
+    <syncdetails compare="LOGICALHTTPSlocalhost:5443"
+        lastSynced="1611217871472" sourceid="293b57ba:17724107a58:-7ec6">
+        <sourcepath path="HTTPS"/>
+    </syncdetails>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="124,199,255"/>
+    </resourceConfig>
+</editableResource>

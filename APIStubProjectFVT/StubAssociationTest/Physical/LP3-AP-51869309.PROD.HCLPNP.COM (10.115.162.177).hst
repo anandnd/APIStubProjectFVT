@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611734548312"
+    createdUser="meenal.patidar" id="563125f5:17742d74be7:-7d76"
+    selfDescribing="LP3-AP-51869309.PROD.HCLPNP.COM (10.115.162.177)"
+    type="host_machine_resource" updatedTimestamp="1611734548312"
+    updatedUser="meenal.patidar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="10.115.162.177" user_host_name="LP3-AP-51869309.PROD.HCLPNP.COM">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953395"
+    createdUser="meenal.patidar" id="293b57ba:17724107a58:-7a55"
+    type="test_resource" updatedTimestamp="1611218953397"
+    updatedUser="meenal.patidar" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig description="" name="">
+        <tagDataStore inputMode="NONE" outputMode="NONE"/>
+    </resourceConfig>
+</editableResource>

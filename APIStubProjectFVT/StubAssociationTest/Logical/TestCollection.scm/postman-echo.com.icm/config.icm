@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953377"
+    createdUser="meenal.patidar"
+    id="293b57ba:17724107a58:-7a85:239696007:408339756"
+    type="infrastructure_component_resource"
+    updatedTimestamp="1611218953377" updatedUser="meenal.patidar" version="1.1">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig infrastructureType="http_transport">
+        <recordingSettings colour="215,170,255"/>
+    </resourceConfig>
+</editableResource>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953439"
+    createdUser="meenal.patidar"
+    id="293b57ba:17724107a58:-7a85:-106041570:-807255066"
+    type="operation_resource" updatedTimestamp="1611218953439"
+    updatedUser="meenal.patidar" version="1.0">
+    <documentation>
+        <description externalID="5364214d-3f07-47e2-83b8-653b49cc7266" value="File Location:C:\Users\meenal.patidar\Documents\Sprint2_10.1.1\StubTest\TestCollection.json&#xd;&#xa;This test is to validate the response status code. This SNIPPET is also available on the right sidebar under `Status code: Code in 200`."/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="0,180,160"
+        dependencies="293b57ba:17724107a58:-7a85:-1808614382:-332410441"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="293b57ba:17724107a58:-7a85:239696007:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="293b57ba:17724107a58:-7a85:239696007:408339756"
+        maxTime="0" mepEndUsed="true"
+        mepStartSchemaID="293b57ba:17724107a58:-7a85:-1808614382:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="/get" mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="293b57ba:17724107a58:-7a85:239696007:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/get?foo1=bar1&amp;foo2=bar2" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="/get?foo1=bar1&amp;foo2=bar2" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/get?foo1=bar1&amp;foo2=bar2" allowSubPath="false"
+                consumerType="Participate" filterHeaders="false"
+                filterMethod="true" filterResourcePath="true"/>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

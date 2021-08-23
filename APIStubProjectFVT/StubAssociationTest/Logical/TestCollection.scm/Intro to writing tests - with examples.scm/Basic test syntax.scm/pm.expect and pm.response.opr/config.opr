@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953673"
+    createdUser="meenal.patidar"
+    id="293b57ba:17724107a58:-7a85:1697697984:-807255066"
+    type="operation_resource" updatedTimestamp="1611218953673"
+    updatedUser="meenal.patidar" version="1.0">
+    <documentation>
+        <description externalID="848f4d86-d622-495f-8574-588f7899ca84" value="File Location:C:\Users\meenal.patidar\Documents\Sprint2_10.1.1\StubTest\TestCollection.json&#xd;&#xa;Within the second parameter of the `pm.test()` function, you can use either `pm.response()` or `pm.expect()` to make your assertions. &#xa;&#xa;Under the **Tests** tab in the Postman app, review the tests comparing and contrasting the 2 methods.&#xa;&#xa;The `pm.expect()` generic assertion function relies on [Chai.js](https://www.chaijs.com/), a BDD / TDD assertion library for node. &#xa;&#xa;```&#xa;pm.test(&quot;Environment to be production&quot;, function () {&#xa;  pm.expect(pm.environment.get(&quot;env&quot;)).to.equal(&quot;production&quot;);&#xa;});&#xa;```&#xa;&#xa;You can also use a 2nd optional parameter with the `pm.expect()` function to create a custom error message.&#xa;&#xa;```&#xa;pm.test(&quot;Using a custom error message&quot;, function () {&#xa;    pm.expect(false, 'nooo why fail??').to.be.ok;&#xa;});&#xa;```&#xa;&#xa;The `pm.response()` method uses `pm.expect()` under the hood. Using `pm.response()` as your base assertion allows you to receive more specific error messages when debugging. Here are some [`pm.response()` methods](https://www.getpostman.com/docs/v6/postman/scripts/postman_sandbox_api_reference#response-assertion-api-in-test-scripts). Review the error messages under the **Test Results** tab to see the difference."/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig avgTime="0" color="152,85,212"
+        dependencies="293b57ba:17724107a58:-7a85:-1577491053:-332410441"
+        invokeDynamicFormatterID="http.text.message.type"
+        invokeEndDynamicFormatterID="http.text.message.type"
+        invokeEndFormatterID="HTTP_Message"
+        invokeEndTransportID="293b57ba:17724107a58:-7a85:239696007:408339756"
+        invokeFormatterID="HTTP_Message"
+        invokeTransportID="293b57ba:17724107a58:-7a85:239696007:408339756"
+        maxTime="0" mepEndUsed="true"
+        mepStartSchemaID="293b57ba:17724107a58:-7a85:-1577491053:-332410441"
+        mepStartSchemaNodeFormatter="rest_nodeformatter"
+        mepStartSchemaroot="/get" mepType="IN_OUT" minTime="0"
+        stubDynamicFormatterID="http.text.message.type"
+        stubFormatterID="HTTP_Message" stubTransportID="293b57ba:17724107a58:-7a85:239696007:408339756">
+        <invokeHeaderNode meTy="Message" type="12" version="1.2">
+            <fieldActionGroup>
+                <fieldAction enabled="false" type="1">
+                    <fieldAction anyOrder="false" enabled="false"
+                        ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                </fieldAction>
+            </fieldActionGroup>
+            <_c meTy="String" name="MessageType" type="7"
+                value="http.text.message.type" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="http.text.message.type" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="Method" type="7" value="GET" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="GET" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="String" name="URL" type="7"
+                value="/get?foo1=bar1&amp;foo2=bar2" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction type="0">
+                        <fieldAction exp="/get?foo1=bar1&amp;foo2=bar2" type="0"/>
+                    </fieldAction>
+                </fieldActionGroup>
+            </_c>
+            <_c meTy="Message" name="httpDetails" type="12" version="1.2">
+                <fieldActionGroup>
+                    <fieldAction enabled="false" type="1">
+                        <fieldAction anyOrder="false" enabled="false"
+                            ignoreExtra="false" ignoreNonPresent="false" type="100"/>
+                    </fieldAction>
+                </fieldActionGroup>
+                <_c meTy="String" name="Version" type="7" value="" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Message" name="httpHeaders" type="12" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction enabled="false" type="1">
+                            <fieldAction anyOrder="false"
+                                enabled="false" ignoreExtra="false"
+                                ignoreNonPresent="false" type="100"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+                <_c meTy="Boolean" name="followRedirects" type="8"
+                    value="true" version="1.2">
+                    <fieldActionGroup>
+                        <fieldAction type="0">
+                            <fieldAction exp="true" type="0"/>
+                        </fieldAction>
+                    </fieldActionGroup>
+                </_c>
+            </_c>
+        </invokeHeaderNode>
+        <stubHeaderConfig>
+            <_c MessageType="http.text.message.type" Method="GET"
+                URL="/get?foo1=bar1&amp;foo2=bar2" allowSubPath="false"
+                consumerType="Participate" filterHeaders="false"
+                filterMethod="true" filterResourcePath="true"/>
+        </stubHeaderConfig>
+    </resourceConfig>
+</editableResource>

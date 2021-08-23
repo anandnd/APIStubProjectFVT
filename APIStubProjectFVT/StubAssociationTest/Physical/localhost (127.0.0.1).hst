@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611217872046"
+    createdUser="meenal.patidar" id="293b57ba:17724107a58:-7e54"
+    selfDescribing="localhost (127.0.0.1)" type="host_machine_resource"
+    updatedTimestamp="1611217872046" updatedUser="meenal.patidar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="127.0.0.1" user_host_name="localhost">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

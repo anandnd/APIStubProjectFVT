@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953349"
+    createdUser="meenal.patidar" id="293b57ba:17724107a58:-7a6f"
+    type="environment_resource" updatedTimestamp="1611218953355"
+    updatedUser="meenal.patidar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig isOverridingSecretsNamespace="false">
+        <evbindings>
+            <evbinding
+                evLogicalItemId="293b57ba:17724107a58:-7a85:239696007:408339756" evPhysicalItemId="293b57ba:17724107a58:-7a85:152041168:1544155186"/>
+        </evbindings>
+    </resourceConfig>
+</editableResource>

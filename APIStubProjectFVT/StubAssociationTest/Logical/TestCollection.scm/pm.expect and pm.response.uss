@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953747"
+    createdUser="meenal.patidar"
+    id="293b57ba:17724107a58:-7a85:-1577491053:-332410441"
+    selfDescribing="pm.expect and pm.response"
+    type="parameterized_url_schema" updatedTimestamp="1611218953747"
+    updatedUser="meenal.patidar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig schemaSourceTemplateName="URL">
+        <schemaSourceConfig name="pm.expect and pm.response">
+            <url templateName="/get">
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="/"
+                    parameterName="" type="7"/>
+                <path isExpandable="false" isParameterized="false"
+                    isParticipateToExpension="true" literal="get"
+                    parameterName="" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="bar1" parameterName="foo1"
+                    queryName="foo1" type="7"/>
+                <query defaultValue="" isNameValuePair="true"
+                    isParameterized="true" isRequired="true"
+                    literalValue="bar2" parameterName="foo2"
+                    queryName="foo2" type="7"/>
+            </url>
+        </schemaSourceConfig>
+    </resourceConfig>
+</editableResource>

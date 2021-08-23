@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611734143335"
+    createdUser="meenal.patidar" id="563125f5:17742d74be7:-7e79"
+    selfDescribing="postman-echo.com (107.23.124.180)"
+    type="host_machine_resource" updatedTimestamp="1611734143335"
+    updatedUser="meenal.patidar" version="1.0">
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+    <resourceConfig host_address="107.23.124.180" user_host_name="postman-echo.com">
+        <roles>
+            <identity name="ssh" port="22"/>
+        </roles>
+    </resourceConfig>
+</editableResource>

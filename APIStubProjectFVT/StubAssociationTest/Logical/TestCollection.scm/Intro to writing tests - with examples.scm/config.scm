@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<editableResource createdTimestamp="1611218953380"
+    createdUser="meenal.patidar"
+    id="293b57ba:17724107a58:-7a85:948850687:-1834518822"
+    type="service_component_resource" updatedTimestamp="1611218953380"
+    updatedUser="meenal.patidar" version="1.1">
+    <documentation>
+        <description externalID="656d632c-483b-4951-9363-2723c63fc34c" value="File Location:C:\Users\meenal.patidar\Documents\Sprint2_10.1.1\StubTest\TestCollection.json&#xd;&#xa;This collection contains examples of tests that you can use to automate your testing process.&#xa;&#xa;- Basic test syntax&#xa;- API tests&#xa;- Integration tests&#xa;&#xa;# Quick tips for writing tests&#xa;- Organize your test scenarios by grouping your requests in [collections](https://www.getpostman.com/docs/v6/postman/collections/intro_to_collections) and [folders](https://www.getpostman.com/docs/v6/postman/collections/managing_collections#adding-folders), and naming them descriptively&#xa;- Document your API’s requirements using [markdown in the descriptions](https://www.getpostman.com/docs/v6/postman/collections/using_markdown_for_descriptions)&#xa;- Use [variables](https://www.getpostman.com/docs/v6/postman/environments_and_globals/variables) to simulate more sophisticated user flows&#xa;- Common tests that will be run after every request can be added to collection-level tests or folder-level tests&#xa;&#xa;# Resources&#xa;If you're not already familiar with writing tests in Postman, check out these resources.&#xa;* Postman docs: [Test scripts](https://www.getpostman.com/docs/v6/postman/scripts/test_scripts)&#xa;* Postman docs: [Test examples](https://www.getpostman.com/docs/v6/postman/scripts/test_examples)&#xa;* Community contribution: [Quick reference guide](https://community.getpostman.com/t/the-postman-cheatsheet-quick-reference-guide/1054)&#xa;* Community contribution: [Examples and guides](https://github.com/DannyDainton/All-Things-Postman)&#xa;* Postman blog: [Writing tests in Postman](http://blog.getpostman.com/2017/10/25/writing-tests-in-postman/)&#xa;* Postman blog: [API testing tips from a Postman professional](http://blog.getpostman.com/2017/07/28/api-testing-tips-from-a-postman-professional/)"/>
+    </documentation>
+    <loggingConfiguration debug="false" writeStubEventsToDB="false"/>
+</editableResource>
